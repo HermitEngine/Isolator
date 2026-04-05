@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Isolator",
+  "version": "1.0.0",
+  "description": "Pick an element on the current page and open an isolated preview in a new tab.",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "action": {
+    "default_title": "Isolator",
+    "default_icon": {
+      "16": "icon.svg",
+      "32": "icon.svg"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "isolator@e-goh.com",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      },
+      "strict_min_version": "142.0"
+    }
+  }
+}

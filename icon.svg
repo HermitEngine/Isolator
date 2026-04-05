@@ -1,0 +1,18 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="64"
+  height="64"
+  aria-hidden="true">
+  <defs>
+    <linearGradient id="isolator-bg" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#155e75"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#f5f1e8"/>
+  <rect x="8" y="8" width="48" height="48" rx="13" fill="url(#isolator-bg)"/>
+  <path d="M20 16h10v4h-6v6h-4zm24 0h-10v4h6v6h4zm-20 32h6v-4h-6v-6h-4v10zm16 0h-6v-4h6v-6h4v10z" fill="#dffaf5"/>
+  <rect x="24" y="24" width="16" height="16" rx="4" fill="#f8fafc"/>
+  <rect x="28" y="28" width="8" height="8" rx="2" fill="#0f766e"/>
+</svg>
